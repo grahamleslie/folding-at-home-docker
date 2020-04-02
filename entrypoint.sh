@@ -5,8 +5,8 @@ set -e
     --user="${USER}" \
     --team="${TEAM}" \
     --passkey="${PASSKEY}" \
-    --gpu="${ENABLE_GPU}" \
+    --gpu="false" \
     --smp="${ENABLE_SMP}" \
-    --power=full \
+    --power="${POWER}" \
     --gui-enabled=false \
     "${@}"
