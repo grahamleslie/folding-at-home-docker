@@ -24,7 +24,7 @@ docker run \
   -e ENABLE_SMP=true \
   -e POWER=full
   --restart unless-stopped \
-  gleslie2008/folding-at-home
+  grahamleslie/folding-at-home
 ```
 
 ### docker-compose
